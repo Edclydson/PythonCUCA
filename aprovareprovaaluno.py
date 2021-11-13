@@ -1,6 +1,6 @@
 #DESAFIO 
 
-#programa que pede a nota do aluno e diz se foi aprovado ou reprovado
+#programa que pede as notas do aluno e diz se foi aprovado ou reprovado
 
 nota1= float(input("digite a primeira nota: "))
 nota2= float(input("digite a segunda nota: "))
@@ -10,4 +10,5 @@ if media>= 7:
     # aprovado
     print("Aluno Aprovado!")
 else:
-    print("Aluno Reprovado")
+    #reprovado
+    print("Aluno Reprovado!")
