@@ -8,6 +8,6 @@ for x in range(0,3):
     totalp = totalp + peso
     totala = totala + altura
 media = totalp/3
-print("A media do peso das 3 pessoas é: ", media)
+print("A media do peso das 3 pessoas é: ","%.2f" % media)
 media = totala/3
-print("A media de altura das 3 pessoas é: ", media)
+print("A media de altura das 3 pessoas é: ","%.2f" % media)
