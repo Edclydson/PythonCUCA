@@ -8,6 +8,6 @@ for n in range(0, p):
         preto = preto + 1
     elif(etnia == "branco" or etnia == "amarelo"):
         totET = totET + 1
-perc = 100 * (preto/totET)
+perc = 100 * (preto/p)
 print("Há", preto, "pessoas que se consideram Pretas! ")
 print(perc, "%", "das pessoas cadastradas eram pretas!")
