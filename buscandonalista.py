@@ -1,3 +1,4 @@
+#BUSCANDO UM NOME DE UMA PESSOA EM UMA LISTA
 pessoas = []
 for x in range(5):
     nome = input("digite um nome: ")
