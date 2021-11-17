@@ -2,14 +2,14 @@
 #PROGRAMA QUE CADASTRA 3 NOTAS DE UM ALUNO EM UMA LISTA
 #CALCULA E MOSTRA A MEDIA AO FINAL
 
-notas = []
+notas = [] #CRIADA UMA LISTA VAZIA
 media = 0
 n1= 0
-n2 =0
+n2 =0   #AS TRES VARIAVEIS P RECEBER AS NOTAS
 n3 = 0
 
 n1 = float(input("Informe a 1º nota: "))
-notas.append(n1)
+notas.append(n1) #ADICIONANDO OS VALORES A LISTA
 n2 = float(input("Informe a 2º nota: "))
 notas.append(n2)
 n3 = float(input("Informe a 3º nota: "))
