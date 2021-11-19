@@ -6,9 +6,9 @@
 animais = ["Gato","Cachorro","Tartaruga","Papagaio","Galinha"]
 print(animais)
 animais.append("Vaca")
-animais.append("Águia")
+animais.append("Águia") #ADICIONANDO NOVOS ITENS AO FINAL DA LISTA
 print(animais)
-animais.remove("Cachorro")
+animais.remove("Cachorro") #REMOVENDO ITEM PELO CONTEÚDO
 print(animais)
-animais.pop(4)
+animais.pop(4) #REMOVENDO ITEM PELO INDICE DELE NA LISTA
 print(animais)
